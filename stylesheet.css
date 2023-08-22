@@ -1,0 +1,51 @@
+body {
+  background-color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  text-indent: 505px;
+  color: orange;
+  margin-top: 50px;
+ 
+}
+#board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 5px;
+  margin-top: 50px;
+  justify-content: center;
+  
+}
+  
+#restart {
+  margin-top: 20px;
+  margin-left: 515px; 
+  color: black;
+  background-color: orange;
+  cursor: pointer;
+  width: 100px; 
+  height: 40px; 
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace ;
+  border-radius: 10px;
+}
+#restart:hover{
+  color: gray!important;
+  transition: 200ms ;
+  transform: translateY(-4px);
+}
+.box {
+  width: 100px;
+    height: 100px;
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    justify-content: flex-end;
+    padding-right: 40px;
+}
+#ttt{
+  text-indent: 420px;
+  color: orange;
+}
